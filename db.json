@@ -6,9 +6,43 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "teste@email.com",
+      "password": "$2a$10$NCC42MY5Po9dApmzIJhGvu55gW1vyZW4hX88S4goCTw6oXH148SNu",
+      "id": 2
     }
   ],
-  "pets": [],
+  "pets": [
+    {
+      "userId": 2,
+      "animal": "cat",
+      "name": "Mia",
+      "age": 3,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "animal": "dog",
+      "name": "Tobby",
+      "age": 1,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "animal": "cat",
+      "name": "Bob",
+      "age": 5,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "animal": "snake",
+      "name": "Python",
+      "age": 1,
+      "id": 4
+    }
+  ],
   "products": [
     {
       "description": "Ração para gato 1kg",
