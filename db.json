@@ -7,5 +7,36 @@
       "age": 38,
       "id": 1
     }
+  ],
+  "pets": [],
+  "products": [
+    {
+      "description": "Ração para gato 1kg",
+      "price": 19.9
+    },
+    {
+      "description": "Ração para cachorro 1kg",
+      "price": 16.95
+    },
+    {
+      "description": "Frango de borracha",
+      "price": 9.98
+    },
+    {
+      "description": "Areia para gato 2kg",
+      "price": 15.9
+    },
+    {
+      "description": "Casa pet - grande porte",
+      "price": 325.9
+    },
+    {
+      "description": "Arranhador para gato",
+      "price": 64.9
+    },
+    {
+      "description": "Erva de gato 10g",
+      "price": 21.5
+    }
   ]
 }
