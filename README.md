@@ -1,6 +1,16 @@
-# json-server-base
+# Pet-shop API
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
+Para utilizar está API use o comando abaixo para instalar todos os pacotes:
+
+```shell
+$ yarn
+```
+
+Para iniciar a API utilize o comando abaixo:
+
+```shell
+$ yarn start
+```
 
 # Endpoints sem autenticação
 
@@ -103,9 +113,11 @@ Utilize essa rota para receber os produtos disponíveis.
 
 # Endpoints com autenticação
 
-Para utilizar essas rotas é necessário enviar o token nas requisições.
+Para utilizar as rotas abaixo é necessário enviar o token nas requisições.
 
 ## Cadastro de pets
+
+Para cadastrar o pet de um usuário utilize a rota abaixo
 
 | Método | Endpoint |
 | ------ | -------- |
@@ -134,7 +146,9 @@ Para utilizar essas rotas é necessário enviar o token nas requisições.
 }
 ```
 
-## Lista de pets cadastrados
+## Pets
+
+Utilize essa rota para listar todos os pets
 
 | Método | Endpoint |
 | ------ | -------- |
@@ -168,6 +182,8 @@ Para utilizar essas rotas é necessário enviar o token nas requisições.
 ]
 ```
 
+Para mostrar apenas um tipo de animal utilize a rota abaixo, passando como query params a chave "animal" e o tipo que você quer buscar
+
 | Método | Endpoint         |
 | ------ | ---------------- |
 | `GET`  | /pets?animal=dog |
@@ -194,6 +210,8 @@ Para utilizar essas rotas é necessário enviar o token nas requisições.
 ```
 
 ## Lista os pets de um usuário
+
+Para listar todos pet de um um usuário utilize a rota abaixo, substituindo o `:userId` pelo ID do usuário 
 
 | Método | Endpoint                    |
 | ------ | --------------------------- |
