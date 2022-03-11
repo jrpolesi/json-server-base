@@ -202,7 +202,7 @@ Para mostrar apenas um tipo de animal utilize a rota abaixo, passando como query
 
 ## Lista os pets de um usuário
 
-Para listar todos pet de um um usuário utilize a rota abaixo, substituindo o `:userId` pelo ID do usuário. 
+Para listar todos pet de um um usuário utilize a rota abaixo, substituindo o `:userId` pelo ID do usuário logado. 
 
 | Método | Endpoint                    |
 | ------ | --------------------------- |
