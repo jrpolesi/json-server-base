@@ -120,7 +120,7 @@ Para cadastrar o pet de um usuário utilize a rota abaixo.
 {
   "userId": 2,
   "animal": "cat",
-  "name": "12345678",
+  "name": "Gatinho",
   "age": 3
 }
 ```
@@ -131,7 +131,7 @@ Para cadastrar o pet de um usuário utilize a rota abaixo.
 {
   "userId": 2,
   "animal": "cat",
-  "name": "12345678",
+  "name": "Gatinho",
   "age": 3,
   "id": 2
 }
