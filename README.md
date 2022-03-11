@@ -1,16 +1,5 @@
 # Pet-shop API
-
-Para utilizar está API use o comando abaixo para instalar todos os pacotes:
-
-```shell
-$ yarn
-```
-
-Para iniciar a API utilize o comando abaixo:
-
-```shell
-$ yarn start
-```
+**BASE URL:** `https://first-json-serve-fake-api.herokuapp.com/` 
 
 # Endpoints sem autenticação
 
@@ -115,9 +104,11 @@ Utilize essa rota para receber os produtos disponíveis.
 
 Para utilizar as rotas abaixo é necessário enviar o token nas requisições.
 
+Utilize o padrão **Bearer Authorization** para enviar o token.
+
 ## Cadastro de pets
 
-Para cadastrar o pet de um usuário utilize a rota abaixo
+Para cadastrar o pet de um usuário utilize a rota abaixo.
 
 | Método | Endpoint |
 | ------ | -------- |
@@ -148,7 +139,7 @@ Para cadastrar o pet de um usuário utilize a rota abaixo
 
 ## Pets
 
-Utilize essa rota para listar todos os pets
+Utilize essa rota para listar todos os pets.
 
 | Método | Endpoint |
 | ------ | -------- |
@@ -182,7 +173,7 @@ Utilize essa rota para listar todos os pets
 ]
 ```
 
-Para mostrar apenas um tipo de animal utilize a rota abaixo, passando como query params a chave "animal" e o tipo que você quer buscar
+Para mostrar apenas um tipo de animal utilize a rota abaixo, passando como query params a chave "animal" e o tipo que você quer buscar.
 
 | Método | Endpoint         |
 | ------ | ---------------- |
@@ -211,7 +202,7 @@ Para mostrar apenas um tipo de animal utilize a rota abaixo, passando como query
 
 ## Lista os pets de um usuário
 
-Para listar todos pet de um um usuário utilize a rota abaixo, substituindo o `:userId` pelo ID do usuário 
+Para listar todos pet de um um usuário utilize a rota abaixo, substituindo o `:userId` pelo ID do usuário. 
 
 | Método | Endpoint                    |
 | ------ | --------------------------- |
